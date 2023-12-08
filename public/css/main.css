@@ -1,0 +1,241 @@
+/* Proyecto final:
+Quiroga Marina Belén
+*/
+
+
+/* *****************
+    GENERAL
+********************
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* *****************
+    MOBILE
+********************
+
+
+
+/* *****************
+    HEADER
+********************
+*/
+
+header > .navbar {
+    background-color: rgba(100, 204, 197, 1) !important; 
+
+}
+
+header .btn {
+    border:1px solid rgba(5, 59, 80, 1) !important;
+    color:rgba(5, 59, 80, 1) !important;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: rgba(5, 59, 80, 1) !important;
+    color: rgba(100, 204, 197, 1) !important;
+}
+
+header .nav-link {
+    color: rgba(5, 59, 80, 1) !important;
+    font-weight: bold;
+}
+
+header .navbar-brand {
+    color: rgba(5, 59, 80, 1) !important;
+    font-size: 16px; 
+    font-weight: normal; 
+    transition: font-size 0.3s, font-weight 0.3s; 
+}
+
+header .navbar-brand:hover {
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+
+
+
+/* *****************
+    MAIN SECTION
+********************
+*/
+
+main > section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+
+
+/* About */
+#section__about {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0%;
+    background: linear-gradient(to bottom, rgba(5, 59, 80, 1), rgba(23, 107, 135, 1));
+    color: rgba(100, 204, 197, 1);
+}
+
+.section__paragraph {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.barra {
+    height: 1px;
+    background-color: rgba(100, 204, 197, 1);
+    margin: 10px 0;
+    width: 80%; 
+    margin: 10px auto; 
+}
+
+
+
+/* Section */
+.section__title {
+    text-align: center;
+    width: 100%;
+    margin: 5%;
+    color: rgba(100, 204, 197, 1);
+}
+
+
+
+
+/* Gallery */
+#section__gallery{
+    background: linear-gradient(to bottom, rgba(23, 107, 135, 1),rgba(100, 204, 197, 1));
+}
+
+#carouselExampleCaptions {
+    width: 75%; 
+    margin: auto; 
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Services */
+#section__services {
+    background: linear-gradient(to bottom, rgba(100, 204, 197, 1), rgba(238, 238, 238, 1));
+    justify-content: space-around;
+    align-items: center; 
+    display: flex; 
+}
+
+#section__services .section__title {
+    color: rgba(23, 107, 135, 1);
+    width: 100%; 
+    text-align: center; 
+    padding: 20px 0;
+}
+
+#section__services .modal__button {
+    width: 100%;
+    color: rgba(238, 238, 238, 1);
+    border: 1px solid rgba(23, 107, 135, 1);
+    background-color: rgba(23, 107, 135, 1);
+    margin-bottom: 3%;
+    transition: background-color 0.3s;
+}
+
+#section__services .modal__button:hover {
+    background-color: rgba(100, 204, 197, 1);
+}
+
+
+
+/* Contacto */
+#section__contact{
+    width: 100%;
+    background-color: rgba(238, 238, 238, 1);
+
+}
+#section__contact .section__title {
+    color:rgba(23, 107, 135, 1);
+}
+
+.contact__form{
+    width: 80%;
+}
+
+.form-label{
+    color: rgba(5, 59, 80, 1);
+}
+
+.contact__form button{
+    width: 100%;
+    background-color:rgba(5, 59, 80, 1);
+    color: rgba(100, 204, 197, 1);
+    border-color: rgba(23, 107, 135, 1);
+    margin-bottom: 3%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact__form button:hover {
+    background-color: rgba(100, 204, 197, 1);
+    color: rgba(5, 59, 80, 1);
+}
+
+
+
+
+/* *****************
+    FOOTER
+********************
+*/
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(5, 59, 80, 1);
+    color:rgba(238, 238, 238, 1);
+    height: 80px; 
+    padding: 10px 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 30px; 
+    margin-right: 10px; 
+}
+
+footer span {
+    font-size: 16px;
+}
+
+
+/* ********************
+    DESKTOP
+***********************
+*/ 
+
+@media (min-width: 1024px) {
+    /* Section */
+    .section__title {
+        margin: 2% 0;
+}
+}

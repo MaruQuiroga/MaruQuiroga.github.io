@@ -1,0 +1,192 @@
+<!--Proyecto final:
+Quiroga Marina Belén
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto final</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/main.css">
+</head>
+
+
+<body>
+<!----------------
+  Menu despegable
+------------------->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WINGS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#section__about">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section__gallery">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section__services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section__contact">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!---------------
+  Main Section 
+------------------->
+  <main>
+
+<!--------
+  About 
+------------>
+    <section id="section__about">
+      <h2 class="section__title"> - Quiénes somos -</h2>
+      <p class="section__paragraph">
+        DICTAMOS CLASES DE INGLÉS A PARTIR DE LOS 4 AÑOS, EN TODOS LOS NIVELES.
+      </p>
+      <div class="barra"></div>
+      <p class="section__paragraph">
+        Con muchos años de experiencia en la zona, nos dedicamos con pasión y determinación a ayudarte a aprender el idioma en un ambiente divertido y atractivo donde puedas desarrollar todo tu potencial.
+      </p>
+      <div class="barra"></div>
+    </section>
+
+<!--------
+  Gallery
+------------>
+    <section id="section__gallery">
+      <h2 class="section__title"> - Galería - </h2>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./public/img/halloween2023.jpg" class="d-block w-100" alt="halloween2023jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FULL DAY 2022</h5>
+              <p>Día completo de inmersion con nativos</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./public/img/findeaño2021.jpg" class="d-block w-100" alt="findeaño2021.jpg">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fin de año 2021</h5>
+              <p>Actividad de fin de año con juegos, picnic y certificados.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./public/img/talentshow2023.jpg" class="d-block w-100" alt="talentshow2023">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Talent Show 2023</h5>
+              <p>Acto con juegos, presentaciones y comida para festejar la primavera y compartir con las familias.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+<!----------
+  Servicios
+-------------->
+    <section id="section__services">
+      <h2 class="section__title"> - Servicios - </h2>
+      <div class="card" style="width: 18rem;">
+        <img src="./public/img/corporate.jpg" class="card-img-top" alt="corporate">
+        <div class="card-body">
+          <h5 class="card-title text-center">Corporate</h5>
+          <p class="card-text text-center">¿NECESITÁS CLASES PARA TU PROFESIÓN O EMPRESA?</p>
+          <p class="card-text text-center">Diseñamos un curso acorde a cada necesidad, con cursada corta o de larga duración.</p>
+          <a href="#" class="btn btn-primary modal__button">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./public/img/walkandtalk.jpg" class="card-img-top" alt="walkandtalk.jpg">
+        <div class="card-body">
+          <h5 class="card-title text-center">Walk & Talk</h5>
+          <p class="card-text text-center">¿QUERÉS MEJORAR TU VOCABULARIO Y FORMA DE EXPRESARTE?</p>
+          <p class="card-text text-center">Talleres semanales con foco en la comunicación oral.</p>
+          <a href="#" class="btn btn-primary modal__button">Ver más</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./public/img/exampreparation.jpg" class="card-img-top" alt="exampreparation.jpg">
+        <div class="card-body">
+          <h5 class="card-title text-center">Exam preparation</h5>
+          <p class="card-text text-center">¿CUÁL ES EL EXAMEN INTERNACIONAL QUE MÁS TE CONVIENE?</p>
+          <p class="card-text text-center">Te asesoramos para que elijas el más apropiado para vos. </p>
+          <a href="#" class="btn btn-primary modal__button">Ver más</a>
+        </div>
+      </div>
+    </section>
+
+<!--------
+  Contacto
+------------>
+    <section id="section__contact">
+      <h2 class="section__title"> - Contacto - </h2>
+      <form class="contact__form">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
+          <input type="text" class="form-control" id="nombrecompleto" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Consulta</label>
+          <input type="text" class="form-control" id="consulta" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Número teléfono</label>
+          <input type="text" class="form-control" id="numerodetelefono" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+<!------
+  Footer
+---------->
+  <footer>
+    <div>
+      <img src="./public/img/instagram.png" alt="Instagram.png">
+      <span>@quiroga_marina</span>
+    </div>
+    <div>
+      <img src="./public/img/email.png" alt="email.png">
+      <span>marinaquirogaok@gmail.com</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
